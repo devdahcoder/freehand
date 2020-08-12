@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+li,
+a,
+button {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0%;
+  border-bottom: 2px solid grey;
+  border-color: #e5eaf4;
+}
+
+header .logo {
+  cursor: pointer;
+}
+
+header nav ul {
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+header nav ul li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0.8;
+  color: grey;
+}
+
+header .nav-btn .btn {
+  border-radius: 8px;
+  width: 120px;
+  height: 46px;
+}
+
+header .nav-btn .btn-sign-in {
+  border: 2px solid #16133e;
+}
+
+header .nav-btn .btn-login {
+  background-color: #16133e;
+  margin-left: 10px;
+  color: white;
+  border: none;
+}
+
+.header-presentation {
+  margin-top: 2em;
+}
+
+.header-presentation .presentation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.header-presentation .presentation .presentation-text {
+  position: relative;
+}
+
+.header-presentation .presentation .presentation-text h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  width: 80%;
+}
+
+.header-presentation .presentation .presentation-text p {
+  width: 80%;
+  margin: 1.5em 0;
+}
+
+.header-presentation .presentation .presentation-text .presentation-btn .view-btn {
+  width: 169px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: #007ffc;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.header-presentation .presentation .presentation-text .presentation-btn .more-btn {
+  width: 152px;
+  height: 46px;
+  border-radius: 8px;
+  border: 2px solid #007ffc;
+  color: #007ffc;
+  background-color: #ffffff;
+}
+
+.header-presentation .presentation .presentation-image {
+  position: relative;
+}
+
+.header-presentation .presentation .presentation-image .main-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.header-presentation .presentation .presentation-image .arrow {
+  top: 50%;
+  border-radius: 5px;
+  background-color: #16133e;
+  position: absolute;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header-presentation .presentation .presentation-image .arrow-right {
+  right: -20px;
+}
+
+.header-presentation .presentation .presentation-image .arrow-left {
+  left: -20px;
+}
+
+.services .service-header {
+  margin: 2em 0 3em 0;
+}
+
+.services .service-header p {
+  padding: 10px 0px;
+}
+
+.services .service-header h1 {
+  font-size: 2rem;
+}
+
+.services .services-display {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.services .services-display .inner-display {
+  border: 2px solid #e5eaf4;
+  border-radius: 5px;
+  padding: 45px 20px;
+}
+
+.services .services-display .inner-display .image-div {
+  border: 2px solid #e5eaf4;
+  border-radius: 5px;
+  padding: 5px;
+  width: 62px;
+  height: 60px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.services .services-display .inner-display .image-div img {
+  vertical-align: middle;
+}
+
+.services .services-display .inner-display h2 {
+  margin-bottom: .5em;
+}
+
+.services .services-display .inner-display p {
+  margin-bottom: 1.5em;
+}
+
+.services .services-display .inner-display a {
+  color: #16133e;
+}
+
+section .pix-header {
+  margin: 2em 0 3em 0;
+}
+
+section .pix-header p {
+  padding: 10px 0px;
+}
+
+section .pix-header h1 {
+  font-size: 2rem;
+}
+
+section .pix-display {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+section .pix-display .image-wrapper {
+  position: relative;
+  width: 555px;
+  height: 485px;
+}
+
+section .pix-display .image-wrapper p {
+  position: absolute;
+  top: 9em;
+  left: 1em;
+  width: 100%;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+section .pix-display .image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.business-plan .plan-header {
+  margin: 2em 0 3em 0;
+}
+
+.business-plan .plan-header p {
+  padding: 10px 0px;
+}
+
+.business-plan .plan-header h1 {
+  font-size: 2rem;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.business-plan .business-plan-display {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.business-plan .business-plan-display .plans {
+  -webkit-box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.03);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.business-plan .business-plan-display .plans .price, .business-plan .business-plan-display .plans .plan-paragraph {
+  margin: 2em;
+}
+
+.business-plan .business-plan-display .plans .price h1, .business-plan .business-plan-display .plans .plan-paragraph h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.business-plan .business-plan-display .plans button {
+  width: 181px;
+  height: 50px;
+  border-radius: 23px;
+  border: none;
+  -webkit-box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.03);
+  border: 2px solid #16133e;
+}
+
+.business-plan .business-plan-display .free-plan {
+  border-top: 3px solid #0593fa;
+  color: #16133e;
+}
+
+.business-plan .business-plan-display .free-plan .price h1 {
+  color: #0593fa;
+}
+
+.business-plan .business-plan-display .free-plan button {
+  background-color: #ffffff;
+  color: #16133e;
+}
+
+.business-plan .business-plan-display .month-plan {
+  border-top: 3px solid #57cbae;
+  color: #16133e;
+}
+
+.business-plan .business-plan-display .month-plan .price h1 {
+  color: #57cbae;
+}
+
+.business-plan .business-plan-display .month-plan button {
+  background-color: #ffffff;
+  color: #16133e;
+}
+
+.business-plan .business-plan-display .year-plan {
+  border-top: 3px solid #fa6770;
+}
+
+.business-plan .business-plan-display .year-plan .price h1 {
+  color: #fa6770;
+}
+
+.business-plan .business-plan-display .year-plan button {
+  background-color: #16133e;
+  color: #ffffff;
+}
+
+.banner .banner-display {
+  position: relative;
+}
+
+.banner .banner-display .banner-text {
+  color: #ffffff;
+  position: absolute;
+  bottom: 8em;
+  left: 12em;
+  text-align: center;
+}
+
+.banner .banner-display .banner-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.banner .banner-display .banner-text h1, .banner .banner-display .banner-text p {
+  margin-bottom: 15px;
+}
+
+.banner .banner-display .banner-text .banner-button .try-btn {
+  width: 192px;
+  height: 50px;
+  border-radius: 23px;
+  background: #ffffff;
+  border: none;
+}
+
+.banner .banner-display .banner-text .banner-button .demo-btn {
+  width: 192px;
+  height: 50px;
+  border-radius: 23px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #0593fa;
+}
+
+footer {
+  background-color: #16143d;
+  color: #ffffff;
+  padding: 6em 0;
+}
+
+footer .footer-display {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+footer .footer-display .footer-inner-display .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-display .footer-inner-display .social-icon img {
+  background-color: #efeef3;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 38px;
+  height: 38px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer .footer-display .footer-inner-display .social-icon img:hover {
+  background-color: #16133e;
+}
+
+footer .footer-display .footer-inner-display h1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+footer .footer-display .footer-inner-display .footer-head {
+  padding-bottom: 30px;
+}
+
+footer .footer-display .footer-inner-display .social-icon, footer .footer-display .footer-inner-display .company-brand, footer .footer-display .footer-inner-display p, footer .footer-display .footer-inner-display .mail {
+  margin-top: 1em;
+}
+
+footer .footer-display .footer-inner-display .company-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copy-right {
+  text-align: center;
+  margin-top: 6em;
+}
+/*# sourceMappingURL=index.css.map */

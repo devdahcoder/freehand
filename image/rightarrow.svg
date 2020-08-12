@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <image width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGOfPtRkwAAAMJJREFUOBFjYBgFgzIE/v//zwjETPgch1cSm0aggUJA8XlALIJNniwxoKFaQPwAiL8CsRhZhqBrAhoUAzUQSFHBYKAhLEDcDTINCVDmYqBBCkB8DMlAGJN8g4EmuAPxG5hJaDR5BgMN4QfiG2iGIXMJGow1uTEyMn4ERp42EM9Aj0Sq8YHOTADiV8jOBbIJupgoBwANAqXfh0iGU8dgkO1AQ8WBeDPUcOoZDPMa0OAGIKa+wVDXmwEN54ZZNkoPTAgAAH6d/dNxaf5hAAAAAElFTkSuQmCC" id="img_1" />
+  </defs>
+  <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(-1 0 0 1 22 0)" />
+</svg>
