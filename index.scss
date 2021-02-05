@@ -212,7 +212,7 @@ header {
 }
 
 section {
-
+    
     .pix-header {
         margin: 2em 0 3em 0;
 
@@ -228,15 +228,16 @@ section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2em;
+        position: relative;
 
         .image-wrapper {
             position: relative;
-            width: 555px;
-            height: 485px;
+            // width: 555px;
+            // height: 485px;
 
             p {
                 position: absolute;
-                top: 9em;
+                bottom: 2em;
                 left: 1em;
                 width: 100%;
                 color: #ffffff;

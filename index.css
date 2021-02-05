@@ -225,17 +225,16 @@ section .pix-display {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2em;
+  position: relative;
 }
 
 section .pix-display .image-wrapper {
   position: relative;
-  width: 555px;
-  height: 485px;
 }
 
 section .pix-display .image-wrapper p {
   position: absolute;
-  top: 9em;
+  bottom: 2em;
   left: 1em;
   width: 100%;
   color: #ffffff;
